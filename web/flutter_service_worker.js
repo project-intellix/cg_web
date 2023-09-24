@@ -82,6 +82,7 @@ const RESOURCES = {"manifest.json": "4edc2953afb64ba03a54b49552105fa2",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796"};
 // The application shell files that are downloaded before a service worker can
 // start.
+<<<<<<< HEAD
 const CORE = ["/", 
 "main.dart.js",
 "index.html",
