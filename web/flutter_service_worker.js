@@ -84,12 +84,12 @@ const RESOURCES = {"manifest.json": "0cc81f760daec001cc325ab45812ffa4",
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-"flutter.js",
-"flutter_service_worker.js", 
 "main.dart.js",
 "index.html",
 "assets/AssetManifest.json",
-"assets/FontManifest.json"];
+"assets/FontManifest.json",
+"manifest.json",
+"version.json"];
 
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
