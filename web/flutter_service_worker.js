@@ -83,13 +83,10 @@ const RESOURCES = {"manifest.json": "0cc81f760daec001cc325ab45812ffa4",
 "favicon.png": "c2eb0d922b17be757a21c85dcbcbcbd4"};
 // The application shell files that are downloaded before a service worker can
 // start.
-const CORE = [
-"main.dart.js",
+const CORE = ["main.dart.js",
 "index.html",
 "assets/AssetManifest.json",
-"assets/FontManifest.json",
-"manifest.json",
-"version.json"];
+"assets/FontManifest.json"];
 
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
