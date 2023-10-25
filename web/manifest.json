@@ -1,6 +1,6 @@
 {
-    "name": "cg_app",
-    "short_name": "cg_app",
+    "name": "Gebetsanliegen",
+    "short_name": "Gebetsanliegen",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#hexcode",
