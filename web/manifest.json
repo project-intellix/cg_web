@@ -3,9 +3,9 @@
     "short_name": "Gebetsanliegen",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#hexcode",
-    "theme_color": "#hexcode",
-    "description": "A new Flutter project.",
+    "background_color": "#f1f1f1",
+    "theme_color": "#ffffff",
+    "description": "Gebetsanliegen",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
